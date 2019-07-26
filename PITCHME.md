@@ -180,9 +180,9 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-@snap[midpoint span-80]
-
 ### Azure StackにWindows Server 2016を展開 (3/10)
+
+@snap[midpoint span-80]
 
 ![作成](2019-07-26-14-45-14.png)
 
