@@ -4,7 +4,7 @@ $location = Read-Host "location?"
 # Create variables to store the location and resource group names.
 $ResourceGroupName = "HCCJP_WS2016byPS"
 
-New-AzResourceGroup `
+New-AzureRMResourceGroup `
   -Name $ResourceGroupName `
   -Location $location
 
@@ -14,23 +14,23 @@ $StorageAccountName = ("sa" + $random)
 $SkuName = "Standard_LRS"
 
 # Create a new storage account
-$StorageAccount = New-AzStorageAccount `
+$StorageAccount = New-AzureRMStorageAccount `
   -Location $location `
   -ResourceGroupName $ResourceGroupName `
   -Type $SkuName `
   -Name $StorageAccountName
 
-Set-AzCurrentStorageAccount `
+Set-AzureRMCurrentStorageAccount `
   -StorageAccountName $storageAccountName `
   -ResourceGroupName $resourceGroupName
 
 # Create a subnet configuration
-$subnetConfig = New-AzVirtualNetworkSubnetConfig `
+$subnetConfig = New-AzureRMVirtualNetworkSubnetConfig `
   -Name mySubnet `
   -AddressPrefix 192.168.1.0/24
 
 # Create a virtual network
-$vnet = New-AzVirtualNetwork `
+$vnet = New-AzureRMVirtualNetwork `
   -ResourceGroupName $ResourceGroupName `
   -Location $location `
   -Name MyVnet `
@@ -38,7 +38,7 @@ $vnet = New-AzVirtualNetwork `
   -Subnet $subnetConfig
 
 # Create a public IP address and specify a DNS name
-$pip = New-AzPublicIpAddress `
+$pip = New-AzureRMPublicIpAddress `
   -ResourceGroupName $ResourceGroupName `
   -Location $location `
   -AllocationMethod Static `
@@ -46,7 +46,7 @@ $pip = New-AzPublicIpAddress `
   -Name "mypublicdns$(Get-Random)"
 
 # Create an inbound network security group rule for port 3389
-$nsgRuleRDP = New-AzNetworkSecurityRuleConfig `
+$nsgRuleRDP = New-AzureRMNetworkSecurityRuleConfig `
   -Name myNetworkSecurityGroupRuleRDP `
   -Protocol Tcp `
   -Direction Inbound `
@@ -58,7 +58,7 @@ $nsgRuleRDP = New-AzNetworkSecurityRuleConfig `
   -Access Allow
 
 # Create an inbound network security group rule for port 80
-$nsgRuleWeb = New-AzNetworkSecurityRuleConfig `
+$nsgRuleWeb = New-AzureRMNetworkSecurityRuleConfig `
   -Name myNetworkSecurityGroupRuleWWW `
   -Protocol Tcp `
   -Direction Inbound `
@@ -70,14 +70,14 @@ $nsgRuleWeb = New-AzNetworkSecurityRuleConfig `
   -Access Allow
 
 # Create a network security group
-$nsg = New-AzNetworkSecurityGroup `
+$nsg = New-AzureRMNetworkSecurityGroup `
   -ResourceGroupName $ResourceGroupName `
   -Location $location `
   -Name myNetworkSecurityGroup `
   -SecurityRules $nsgRuleRDP,$nsgRuleWeb
 
 # Create a virtual network card and associate it with public IP address and NSG
-$nic = New-AzNetworkInterface `
+$nic = New-AzureRMNetworkInterface `
   -Name myNic `
   -ResourceGroupName $ResourceGroupName `
   -Location $location `
@@ -93,17 +93,17 @@ $Credential=New-Object PSCredential($UserName,$Password)
 # Create the VM configuration object
 $VmName = "VirtualMachinelatest"
 $VmSize = "Standard_A1"
-$VirtualMachine = New-AzVMConfig `
+$VirtualMachine = New-AzureRMVMConfig `
   -VMName $VmName `
   -VMSize $VmSize
 
-$VirtualMachine = Set-AzVMOperatingSystem `
+$VirtualMachine = Set-AzureRMVMOperatingSystem `
   -VM $VirtualMachine `
   -Windows `
   -ComputerName "MainComputer" `
   -Credential $Credential
 
-$VirtualMachine = Set-AzVMSourceImage `
+$VirtualMachine = Set-AzureRMVMSourceImage `
   -VM $VirtualMachine `
   -PublisherName "MicrosoftWindowsServer" `
   -Offer "WindowsServer" `
@@ -111,16 +111,16 @@ $VirtualMachine = Set-AzVMSourceImage `
   -Version "latest"
 
 # Sets the operating system disk properties on a VM.
-$VirtualMachine = Set-AzVMOSDisk `
+$VirtualMachine = Set-AzureRMVMOSDisk `
   -VM $VirtualMachine `
   -CreateOption FromImage | `
-  Set-AzVMBootDiagnostic -ResourceGroupName $ResourceGroupName `
+  Set-AzureRMVMBootDiagnostics -ResourceGroupName $ResourceGroupName `
   -StorageAccountName $StorageAccountName -Enable |`
-  Add-AzVMNetworkInterface -Id $nic.Id
+  Add-AzureRMVMNetworkInterface -Id $nic.Id
 
 
 # Create the VM.
-New-AzVM `
+New-AzureRMVM `
   -ResourceGroupName $ResourceGroupName `
   -Location $location `
   -VM $VirtualMachine
