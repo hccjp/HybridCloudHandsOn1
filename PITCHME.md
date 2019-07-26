@@ -300,9 +300,63 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-###
+### Azure Stackに展開したWindows Server 2016の確認 (1/9)
 
+![デプロイ完了](2019-07-26-15-26-44.png)
 
+---
+
+### Azure Stackに展開したWindows Server 2016の確認 (2/9)
+
+![リソースグループ](2019-07-26-16-00-34.png)
+
+---
+
+### Azure Stackに展開したWindows Server 2016の確認 (3/9)
+
+![接続](2019-07-26-16-02-14.png)
+
+---
+
+### Azure Stackに展開したWindows Server 2016の確認 (4/9)
+
+![RDPファイルのダウンロード](2019-07-26-16-26-09.png)
+
+---
+
+### Azure Stackに展開したWindows Server 2016の確認 (5/9)
+
+![RDP](2019-07-26-16-28-07.png)
+
+---
+
+### Azure Stackに展開したWindows Server 2016の確認 (6/9)
+
+![発行元](2019-07-26-16-28-58.png)
+
+---
+
+### Azure Stackに展開したWindows Server 2016の確認 (7/9)
+
+![資格情報](2019-07-26-16-30-17.png)
+
+---
+
+### Azure Stackに展開したWindows Server 2016の確認 (8/9)
+
+![リモートコンピューターのID](2019-07-26-16-31-08.png)
+
+---
+
+### Azure Stackに展開したWindows Server 2016の確認 (9/9)
+
+![WindowsServer2016](2019-07-26-16-34-46.png)
+
+---
+
+かんたんに展開でき、きちんと動作していましたね！
+
+---
 
 ## テンプレート
 
