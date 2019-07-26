@@ -148,7 +148,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 #### AzureにWindows Server 2016を展開 (9/10)
 
-![仮想マシンの作成](2019-07-26-12-50-30.png)
+![仮想マシンの作成](2019-07-26-13-08-06.png)
 
 ---
 
