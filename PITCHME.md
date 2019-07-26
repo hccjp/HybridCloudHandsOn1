@@ -6,6 +6,8 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
+@snap[midpoint span-40]
+
 ## ハンズオン目的
 
 このハンズオンではAzureおよびAzure StackをもちいてIaaS, PaaS, FaaSの概要を体験していただきます。
@@ -622,3 +624,5 @@ services:
 ## AzureStackオペレーターとしての体験
 
 Azure StackにはAzureにはない特徴としてAzure Stackオペレーター用の管理ポータルがありオペレーション業務が行えます。これはAzure Stackがオンプレミスに存在し用途に合わせてカスタマイズできる基盤であるためです。
+
+@snapend
