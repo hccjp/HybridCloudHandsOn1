@@ -16,11 +16,12 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 1. サブスクリプション準備
 2. 仮想マシン展開 - ブラウザ
-3. 仮想マシン展開 - PowerShell
-4. テンプレート展開
-5. コンテナ基盤展開
-6. Webサイト作成
-7. Teamsにメッセージを送信するWebサービス作成
+3. 展開後のWindows Server 2016の確認
+4. 仮想マシン展開 - PowerShell
+5. テンプレート展開
+6. コンテナ基盤展開
+7. Webサイト作成
+8. Teamsにメッセージを送信するWebサービス作成
 
 ---
 
@@ -158,16 +159,143 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-## 
-
-
-### Azure StackにWindows Server 2016を展開
-
-![リソースの作成](2019-07-26-01-28-04.png)
-
-![Windows Server 2016をクリック](2019-07-26-01-30-49.png)
+あとは待てば完了です！
 
 ---
+
+## Azure StackにWindows Server 2016を展開します。(代表者1名)
+
+---
+
+### Azure StackにWindows Server 2016を展開 (1/10)
+
+![新規](2019-07-26-13-19-48.png)
+
+---
+
+### Azure StackにWindows Server 2016を展開 (2/10)
+
+![Windows Server 2016 pay-as-you-use](2019-07-26-14-43-06.png)
+
+---
+
+### Azure StackにWindows Server 2016を展開 (3/10)
+
+![作成](2019-07-26-14-45-14.png)
+
+---
+
+### Azure StackにWindows Server 2016を展開 (4/10)
+
+![基本](2019-07-26-14-50-00.png)
+
+---
+
+### Azure StackにWindows Server 2016を展開 (5/10)
+
+![サイズの選択](2019-07-26-14-55-56.png)
+
+---
+
+### Azure StackにWindows Server 2016を展開 (6/10)
+
+![設定1](2019-07-26-14-57-41.png)
+
+---
+
+### Azure StackにWindows Server 2016を展開 (7/10)
+
+![設定2](2019-07-26-14-58-49.png)
+
+---
+
+### Azure StackにWindows Server 2016を展開 (8/10)
+
+![概要](2019-07-26-15-00-01.png)
+
+---
+
+### Azure StackにWindows Server 2016を展開 (9/10)
+
+![デプロイ](2019-07-26-15-02-32.png)
+
+---
+
+### Azure StackにWindows Server 2016を展開 (10/10)
+
+![デプロイ進行中](2019-07-26-15-03-20.png)
+
+---
+
+あとは待てば完了です！
+
+---
+
+## 展開後のWindows Server 2016の確認
+
+---
+
+### Azureに展開したWindows Server 2016の確認
+
+![デプロイ完了](2019-07-26-13-35-26.png)
+
+---
+
+### Azureに展開したWindows Server 2016の確認
+
+![仮想マシンのネットワーク設定](2019-07-26-13-37-45.png)
+
+---
+
+### Azureに展開したWindows Server 2016の確認
+
+![IPアドレスマップ](2019-07-26-14-12-06.png)
+- ※ 引用元：https://blogs.technet.microsoft.com/mskk-cloudos/2016/04/06/azure-ip/
+
+---
+
+### Azureに展開したWindows Server 2016の確認
+
+![接続](2019-07-26-14-35-43.png)
+
+---
+
+### Azureに展開したWindows Server 2016の確認
+
+![仮想マシンに接続する](2019-07-26-14-37-31.png)
+
+---
+
+### Azureに展開したWindows Server 2016の確認
+
+![RDP](2019-07-26-14-38-55.png)
+
+---
+
+### Azureに展開したWindows Server 2016の確認
+
+![発行元](2019-07-26-14-39-56.png)
+
+---
+
+### Azureに展開したWindows Server 2016の確認
+
+![資格情報](2019-07-26-14-25-45.png)
+
+---
+
+### Azureに展開したWindows Server 2016の確認
+
+![リモートコンピューターのID](2019-07-26-14-26-29.png)
+
+---
+
+### Azureに展開したWindows Server 2016の確認
+
+![WindowsServer2016](2019-07-26-14-32-54.png)
+
+---
+
 
 ## テンプレート
 
