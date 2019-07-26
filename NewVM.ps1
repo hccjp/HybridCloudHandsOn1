@@ -9,7 +9,7 @@ New-AzResourceGroup `
   -Location $location
 
 # Create variables to store the storage account name and the storage account SKU information
-$random = -join ((1..10) | %{(65..90) + (97..122) | Get-Random} | % {[char]$_})
+$random = -join ((1..10) | %{(97..122) | Get-Random} | % {[char]$_})
 $StorageAccountName = ("mystorageaccount" + $random)
 $SkuName = "Standard_LRS"
 
