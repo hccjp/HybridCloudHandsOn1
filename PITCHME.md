@@ -99,64 +99,83 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-#### AzureにWindows Server 2016を展開 (1/10)
+@snap[midpoint span-80]
 
 ![リソースの作成](2019-07-26-12-13-29.png)
 
+@snapend
+
 ---
 
-#### AzureにWindows Server 2016を展開 (2/10)
+@snap[midpoint span-80]
 
 ![Windows Server 2016 Datacenter](2019-07-26-12-16-46.png)
 
+@snapend
+
 ---
 
-#### AzureにWindows Server 2016を展開 (3/10)
+@snap[midpoint span-80]
 
 ![仮想マシンの作成](2019-07-26-12-19-20.png)
 
+@snapend
+
 ---
 
-#### AzureにWindows Server 2016を展開 (4/10)
+@snap[midpoint span-80]
 
 ![リソースグループ新規作成](2019-07-26-12-21-52.png)
 
+@snapend
+
 ---
 
-#### AzureにWindows Server 2016を展開 (5/10)
+@snap[midpoint span-80]
 
 ![インスタンスの詳細](2019-07-26-12-23-28.png)
 
+@snapend
+
 ---
 
-#### AzureにWindows Server 2016を展開 (6/10)
-
+@snap[midpoint span-80]
 
 ![管理者アカウント](2019-07-26-12-32-03.png)
 
+@snapend
+
 ---
 
-#### AzureにWindows Server 2016を展開 (7/10)
+@snap[midpoint span-80]
 
 ![受信ポートの規則](2019-07-26-12-33-41.png)
 
+@snapend
+
 ---
 
-#### AzureにWindows Server 2016を展開 (8/10)
+@snap[midpoint span-80]
 
 ![お金を節約](2019-07-26-12-47-26.png)
 
+@snapend
+
 ---
 
-#### AzureにWindows Server 2016を展開 (9/10)
+@snap[midpoint span-80]
 
 ![仮想マシンの作成](2019-07-26-13-08-06.png)
 
+@snapend
+
 ---
 
-#### AzureにWindows Server 2016を展開 (10/10)
+@snap[midpoint span-80]
 
 ![デプロイ](2019-07-26-12-52-17.png)
+
+@snapend
 
 ---
 
@@ -168,19 +187,21 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-### Azure StackにWindows Server 2016を展開 (1/10)
+@snap[midpoint span-80]
 
 ![新規](2019-07-26-13-19-48.png)
 
+@snapend
+
 ---
 
-### Azure StackにWindows Server 2016を展開 (2/10)
+@snap[midpoint span-80]
 
 ![Windows Server 2016 pay-as-you-use](2019-07-26-14-43-06.png)
 
----
+@snapend
 
-### Azure StackにWindows Server 2016を展開 (3/10)
+---
 
 @snap[midpoint span-80]
 
@@ -190,45 +211,59 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-### Azure StackにWindows Server 2016を展開 (4/10)
+@snap[midpoint span-80]
 
 ![基本](2019-07-26-14-50-00.png)
 
+@snapend
+
 ---
 
-### Azure StackにWindows Server 2016を展開 (5/10)
+@snap[midpoint span-80]
 
 ![サイズの選択](2019-07-26-14-55-56.png)
 
+@snapend
+
 ---
 
-### Azure StackにWindows Server 2016を展開 (6/10)
+@snap[midpoint span-80]
 
 ![設定1](2019-07-26-14-57-41.png)
 
+@snapend
+
 ---
 
-### Azure StackにWindows Server 2016を展開 (7/10)
+@snap[midpoint span-80]
 
 ![設定2](2019-07-26-14-58-49.png)
 
+@snapend
+
 ---
 
-### Azure StackにWindows Server 2016を展開 (8/10)
+@snap[midpoint span-80]
 
 ![概要](2019-07-26-15-00-01.png)
 
+@snapend
+
 ---
 
-### Azure StackにWindows Server 2016を展開 (9/10)
+@snap[midpoint span-80]
 
 ![デプロイ](2019-07-26-15-02-32.png)
 
+@snapend
+
 ---
 
-### Azure StackにWindows Server 2016を展開 (10/10)
+@snap[midpoint span-80]
 
 ![デプロイ進行中](2019-07-26-15-03-20.png)
+
+@snapend
 
 ---
 
