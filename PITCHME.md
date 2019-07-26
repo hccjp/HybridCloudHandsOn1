@@ -28,16 +28,12 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ## 1. サブスクリプション準備
 
----
-
-### 1. サブスクリプション準備 - やること概要
-
 - ハンズオンで利用するAzure用サブスクリプションを確認します。(各自)
 - ハンズオンで利用するAzure Stack用サブスクリプションを確認します。(代表者1名)
 
 ---
 
-### Azureサブスクリプション準備(各自)
+## Azureサブスクリプション準備(各自)
 
 - Azureサブスクリプションは事前に準備をお願いしていました。
 - Azure管理ポータルにアクセスし「サブスクリプション」を表示、確認してください。
@@ -73,8 +69,6 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 - 有効なサブスクリプションが存在する事を確認します。
 
 ![サブスクリプション一覧](2019-07-24-21-58-58.png)
-
----
 
 ---
 
@@ -201,7 +195,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-@snap[midpoint span-80]
+@snap[midpoint span-40]
 
 ![基本](2019-07-26-14-50-00.png)
 
@@ -217,7 +211,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-@snap[midpoint span-20]
+@snap[midpoint span-30]
 
 ![設定1](2019-07-26-14-57-41.png)
 
@@ -225,7 +219,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-@snap[midpoint span-20]
+@snap[midpoint span-30]
 
 ![設定2](2019-07-26-14-58-49.png)
 
@@ -265,7 +259,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-Azureに展開したWindows Server 2016の確認
+## Azure に展開したWindows Server 2016の確認
 
 ---
 
@@ -276,6 +270,8 @@ Azureに展開したWindows Server 2016の確認
 ![仮想マシンのネットワーク設定](2019-07-26-13-37-45.png)
 
 ---
+
+### Azure VMの構成
 
 ![IPアドレスマップ](2019-07-26-14-12-06.png)
 - ※ 引用元：https://blogs.technet.microsoft.com/mskk-cloudos/2016/04/06/azure-ip/
@@ -314,7 +310,7 @@ Azureに展開したWindows Server 2016の確認
 
 ---
 
-Azure Stackに展開したWindows Server 2016の確認
+## Azure Stackに展開したWindows Server 2016の確認
 
 ---
 
@@ -347,9 +343,14 @@ Azure Stackに展開したWindows Server 2016の確認
 ![資格情報](2019-07-26-16-30-17.png)
 
 @endsnap
+
 ---
 
+@snap[midpoint span-60]
+
 ![リモートコンピューターのID](2019-07-26-16-31-08.png)
+
+@endsnap
 
 ---
 
@@ -360,6 +361,109 @@ Azure Stackに展開したWindows Server 2016の確認
 かんたんに展開でき、きちんと動作していましたね！
 
 ---
+
+- 手動でブラウザ上のGUIで仮想マシンを展開する方法を見てもらいました。
+
+---
+
+## リソース削除
+
+- 今作成した環境を削除します。
+  
+---
+
+## Azure 上のリソースの削除
+
+---
+
+![リソースグループ](2019-07-26-18-02-41.png)
+
+---
+
+![リソースグループの削除](2019-07-26-18-03-35.png)
+
+---
+
+![リソースグループの削除](2019-07-26-18-04-35.png)
+
+---
+
+## Azure Stack上のリソースの削除
+
+---
+
+![リソースグループ](2019-07-26-18-05-52.png)
+
+---
+
+![リソースグループの削除](2019-07-26-18-06-31.png)
+
+---
+
+![リソースグループの削除](2019-07-26-18-07-22.png)
+
+---
+
+## 4. 仮想マシン展開 - PowerShell
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## テンプレート
 
