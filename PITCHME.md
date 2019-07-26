@@ -235,66 +235,73 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-### Azureに展開したWindows Server 2016の確認
+### Azureに展開したWindows Server 2016の確認 (1/10)
 
 ![デプロイ完了](2019-07-26-13-35-26.png)
 
 ---
 
-### Azureに展開したWindows Server 2016の確認
+### Azureに展開したWindows Server 2016の確認 (2/10)
 
 ![仮想マシンのネットワーク設定](2019-07-26-13-37-45.png)
 
 ---
 
-### Azureに展開したWindows Server 2016の確認
+### Azureに展開したWindows Server 2016の確認 (3/10)
 
 ![IPアドレスマップ](2019-07-26-14-12-06.png)
 - ※ 引用元：https://blogs.technet.microsoft.com/mskk-cloudos/2016/04/06/azure-ip/
 
 ---
 
-### Azureに展開したWindows Server 2016の確認
+### Azureに展開したWindows Server 2016の確認 (4/10)
 
 ![接続](2019-07-26-14-35-43.png)
 
 ---
 
-### Azureに展開したWindows Server 2016の確認
+### Azureに展開したWindows Server 2016の確認 (5/10)
 
 ![仮想マシンに接続する](2019-07-26-14-37-31.png)
 
 ---
 
-### Azureに展開したWindows Server 2016の確認
+### Azureに展開したWindows Server 2016の確認 (6/10)
 
 ![RDP](2019-07-26-14-38-55.png)
 
 ---
 
-### Azureに展開したWindows Server 2016の確認
+### Azureに展開したWindows Server 2016の確認 (7/10)
 
 ![発行元](2019-07-26-14-39-56.png)
 
 ---
 
-### Azureに展開したWindows Server 2016の確認
+### Azureに展開したWindows Server 2016の確認 (8/10)
 
 ![資格情報](2019-07-26-14-25-45.png)
 
 ---
 
-### Azureに展開したWindows Server 2016の確認
+### Azureに展開したWindows Server 2016の確認 (9/10)
 
 ![リモートコンピューターのID](2019-07-26-14-26-29.png)
 
 ---
 
-### Azureに展開したWindows Server 2016の確認
+### Azureに展開したWindows Server 2016の確認 (10/10)
 
 ![WindowsServer2016](2019-07-26-14-32-54.png)
 
 ---
+
+かんたんに展開でき、きちんと動作していましたね！
+
+---
+
+###
+
 
 
 ## テンプレート
