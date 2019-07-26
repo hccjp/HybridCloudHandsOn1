@@ -44,8 +44,6 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-### Azureサブスクリプション準備(各自) - 手順(1/2)
-
 - <https://portal.azure.com/> にアクセスします
 - サブスクリプション一覧を表示します
 
@@ -53,21 +51,17 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-### Azureサブスクリプション準備(各自) - 手順(2/2)
-
 - 有効なサブスクリプションが存在する事を確認します。
 
 ![サブスクリプション一覧](2019-07-24-21-27-19.png)
 
 ---
 
-### Azure Stackサブスクリプション準備(代表者1名)
+## AzureStackのサブスクリプションを確認します。(代表者1名
 
-- AzureStack管理ポータルにアクセスし「サブスクリプション」を表示、確認します。
+- 管理ポータルにアクセスし「サブスクリプション」を表示、確認します。
 
 ---
-
-### Azure Stackサブスクリプション準備(代表者1名) - 手順(1/2)
 
 - Azure Stackの管理ポータルにアクセスします
 - サブスクリプション一覧を表示します
@@ -76,26 +70,22 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-### Azure Stackサブスクリプション準備(代表者1名) - 手順(2/2)
-
 - 有効なサブスクリプションが存在する事を確認します。
 
 ![サブスクリプション一覧](2019-07-24-21-58-58.png)
 
 ---
 
-## 2. 仮想マシン展開 - ブラウザ
-
 ---
 
-### 2. 仮想マシン展開 - ブラウザ - やること概要
+## 2. 仮想マシン展開 - ブラウザ
 
 - AzureにWindows Server 2016を展開します。(各自)
 - Azure StackにWindows Server 2016を展開します。(代表者1名)
 
 ---
 
-### AzureにWindows Server 2016を展開します。(各自)
+## AzureにWindows Server 2016を展開します。(各自)
 
 ---
 
@@ -203,7 +193,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-@snap[midpoint span-80]
+@snap[midpoint span-40]
 
 ![作成](2019-07-26-14-45-14.png)
 
@@ -227,7 +217,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-@snap[midpoint span-80]
+@snap[midpoint span-20]
 
 ![設定1](2019-07-26-14-57-41.png)
 
@@ -235,7 +225,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-@snap[midpoint span-80]
+@snap[midpoint span-20]
 
 ![設定2](2019-07-26-14-58-49.png)
 
@@ -243,7 +233,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-@snap[midpoint span-80]
+@snap[midpoint span-50]
 
 ![概要](2019-07-26-15-00-01.png)
 
@@ -275,62 +265,46 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-### Azureに展開したWindows Server 2016の確認 (1/10)
+Azureに展開したWindows Server 2016の確認
+
+---
 
 ![デプロイ完了](2019-07-26-13-35-26.png)
 
 ---
 
-### Azureに展開したWindows Server 2016の確認 (2/10)
-
 ![仮想マシンのネットワーク設定](2019-07-26-13-37-45.png)
 
 ---
-
-### Azureに展開したWindows Server 2016の確認 (3/10)
 
 ![IPアドレスマップ](2019-07-26-14-12-06.png)
 - ※ 引用元：https://blogs.technet.microsoft.com/mskk-cloudos/2016/04/06/azure-ip/
 
 ---
 
-### Azureに展開したWindows Server 2016の確認 (4/10)
-
 ![接続](2019-07-26-14-35-43.png)
 
 ---
-
-### Azureに展開したWindows Server 2016の確認 (5/10)
 
 ![仮想マシンに接続する](2019-07-26-14-37-31.png)
 
 ---
 
-### Azureに展開したWindows Server 2016の確認 (6/10)
-
 ![RDP](2019-07-26-14-38-55.png)
 
 ---
-
-### Azureに展開したWindows Server 2016の確認 (7/10)
 
 ![発行元](2019-07-26-14-39-56.png)
 
 ---
 
-### Azureに展開したWindows Server 2016の確認 (8/10)
-
 ![資格情報](2019-07-26-14-25-45.png)
 
 ---
 
-### Azureに展開したWindows Server 2016の確認 (9/10)
-
 ![リモートコンピューターのID](2019-07-26-14-26-29.png)
 
 ---
-
-### Azureに展開したWindows Server 2016の確認 (10/10)
 
 ![WindowsServer2016](2019-07-26-14-32-54.png)
 
@@ -340,55 +314,44 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-### Azure Stackに展開したWindows Server 2016の確認 (1/9)
+Azure Stackに展開したWindows Server 2016の確認
+
+---
 
 ![デプロイ完了](2019-07-26-15-26-44.png)
 
 ---
 
-### Azure Stackに展開したWindows Server 2016の確認 (2/9)
-
 ![リソースグループ](2019-07-26-16-00-34.png)
 
 ---
-
-### Azure Stackに展開したWindows Server 2016の確認 (3/9)
 
 ![接続](2019-07-26-16-02-14.png)
 
 ---
 
-### Azure Stackに展開したWindows Server 2016の確認 (4/9)
-
 ![RDPファイルのダウンロード](2019-07-26-16-26-09.png)
 
 ---
-
-### Azure Stackに展開したWindows Server 2016の確認 (5/9)
 
 ![RDP](2019-07-26-16-28-07.png)
 
 ---
 
-### Azure Stackに展開したWindows Server 2016の確認 (6/9)
-
 ![発行元](2019-07-26-16-28-58.png)
 
 ---
 
-### Azure Stackに展開したWindows Server 2016の確認 (7/9)
+@snap[midpoint span-60]
 
 ![資格情報](2019-07-26-16-30-17.png)
 
+@endsnap
 ---
-
-### Azure Stackに展開したWindows Server 2016の確認 (8/9)
 
 ![リモートコンピューターのID](2019-07-26-16-31-08.png)
 
 ---
-
-### Azure Stackに展開したWindows Server 2016の確認 (9/9)
 
 ![WindowsServer2016](2019-07-26-16-34-46.png)
 
