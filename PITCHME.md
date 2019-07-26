@@ -419,8 +419,11 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 ---
 
 ```
-PS Azure:\> cd $home\clouddrive
-PS /home/mebisuda/clouddrive> git clone https://github.com/hccjp/HybridCloudHandsOn1.git
+cd $home\clouddrive
+git clone https://github.com/hccjp/HybridCloudHandsOn1.git
+cd ./HybridCloudHandsOn1/
+./NewVM.ps1
+location?: JapanEast
 ```
 
 
