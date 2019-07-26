@@ -1,8 +1,8 @@
 # Select location
 $location = Read-Host "location?"
+
 # Create variables to store the location and resource group names.
-$location = "tokyo"
-$ResourceGroupName = "WS2016byPS"
+$ResourceGroupName = "HCCJP_WS2016byPS"
 
 New-AzResourceGroup `
   -Name $ResourceGroupName `

@@ -406,6 +406,22 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ## 4. 仮想マシン展開 - PowerShell
 
+---
+
+![CloudShell](2019-07-26-22-09-07.png)
+
+---
+
+![ストレージ](2019-07-26-22-12-24.png)
+
+- BashとPowerShellの選択ではPowerShellを選択してください
+
+---
+
+```
+PS Azure:\> cd $home\clouddrive
+PS /home/mebisuda/clouddrive> git clone https://github.com/hccjp/HybridCloudHandsOn1.git
+```
 
 
 
