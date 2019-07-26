@@ -408,6 +408,10 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
+## Azure への仮想マシン展開 - PowerShell
+
+---
+
 ![CloudShell](2019-07-26-22-09-07.png)
 
 ---
@@ -425,10 +429,31 @@ cd ./HybridCloudHandsOn1/
 ./NewVM.ps1
 location?: JapanEast
 ```
+---
 
+![展開中](2019-07-26-22-59-05.png)
 
+---
 
+![VM展開](2019-07-26-22-59-55.png)
 
+---
+
+![VM展開終了](2019-07-26-23-18-08.png)
+
+---
+
+- 確認後リソースグループを削除します。
+
+```
+Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
+```
+
+---
+
+## Azure Stackへの仮想マシン展開 - PowerShell
+
+---
 
 
 
