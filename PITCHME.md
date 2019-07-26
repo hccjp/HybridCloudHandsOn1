@@ -6,7 +6,6 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-@snap[midpoint span-40]
 
 ## ハンズオン目的
 
@@ -181,9 +180,13 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
+@snap[midpoint span-100]
+
 ### Azure StackにWindows Server 2016を展開 (3/10)
 
 ![作成](2019-07-26-14-45-14.png)
+
+@snapend
 
 ---
 
