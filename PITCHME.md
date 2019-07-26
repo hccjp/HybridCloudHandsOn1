@@ -455,7 +455,34 @@ Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 
 ---
 
+- Azure Stackへの接続が設定されています。
 
+![AzureRMEnvironments](2019-07-26-23-43-02.png)
+
+---
+
+```
+cd c:\tmp
+git clone https://github.com/hccjp/HybridCloudHandsOn1.git
+cd ./HybridCloudHandsOn1/
+Add-AzureRmAccount -Environment AzureStackUser
+./NewVM.ps1
+location?: tokyo
+```
+
+---
+
+- Azure / Azure Stackともに全く同じスクリプトでVM展開ができました！
+
+---
+
+- 確認後リソースグループを削除します。
+
+```
+Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
+```
+
+---
 
 
 
