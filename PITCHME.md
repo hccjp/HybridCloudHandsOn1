@@ -626,9 +626,90 @@ Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 ---
 
 - 今回は環境の問題(インターネットの名前解決ができない)でこのテンプレート展開は失敗します。
-- 一度展開が失敗したあとで名前解決の構成を変更し、再デプロイすることで展開成功します。
+- 限定的な環境でも展開成功するようにテンプレートにPullRequestを出そうと思います。
 
 ---
+
+
+
+
+
+## コンテナ基盤展開
+
+---
+
+### Azure へのコンテナ基盤展開
+
+---
+
+
+
+
+
+
+
+---
+
+### Azure Stackへのコンテナ基盤展開
+
+---
+
+![Kubernetes Cluster](2019-07-28-16-19-17.png)
+
+---
+
+![作成](2019-07-28-16-19-59.png)
+
+---
+
+![基本](2019-07-28-16-20-55.png)
+
+---
+
+- publickey
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDZKRx3tZPzZNc7rEZDPJGM6cZ+DeoN16CnvdK4uP958LJOlko70ah3RAB/WJg3/BS5mCU42AljxNMwJLdo3hYItjj068M37V+cv6D7ewXoACaeYYBH4PGGsFNhf/A6geFdtZt+JdupUlARmNKzoHxawolGLZMV6249S6vz6+bNcAkvQtgbYGbzlRjiE633Hz0mmx7m1+vuRMIjhvq409U6aNgmSHoIiCefNv5oMyFnqCnXMaQnKheQLJoNDVtILycprH/UjUc/pPG8tU1CgfTJVdKuO0JHGf3/21Y1l5UbI0bKpv9kBD1oFzn/I9MNQnYTkEBm6q/EVH0lxH1uwrvQeObyU+aKmsBwKmsaX11cIwU1mRUmhfdi/y6bAHbrYLVQa9+diGw+ClQPbXE9iTLsHiiJdNCgshqSnTqMOwL6nAX4wPeYPpW+5SkfChhrrvwicuHiEWdE/LfGXKc/xNuAwHhe1OTB4C0DRFeiUmEtjQGzRYK3+yUJfRwKW2dfthgfF6TSiM6iA6JKJjIdlRcobxim8kMk8r1ZVaKgIIZ1YjcveeuifXW3KlVPwxnc1DKgXObkTfteYYFKloVCUlIjCn8n+2qa9OIbuhrA4W2hNZHKU2dSNvhzJR3dOu3hz9uvYR5q182aoA1NPaWliV3UqgP/rXdvMExqBB21KrqXBQ== ebibibi@gmail.com
+
+---
+
+- アプリケーション (クライアント) ID
+  - 2347abf7-923c-49f9-9660-1e9b687f528b
+- アプリケーションシークレット
+  - その場で生成します
+
+---
+
+![Kubernetes Cluster Settings](2019-07-28-17-04-31.png)
+
+---
+
+![検証](2019-07-28-17-05-09.png)
+
+---
+
+![作成](2019-07-28-17-05-34.png)
+
+---
+
+![展開](2019-07-28-17-06-31.png)
+
+---
+
+![デプロイ進行中](2019-07-28-17-07-30.png)
+
+---
+
+![デプロイ完了](2019-07-28-17-49-36.png)
+
+---
+
+![リソースグループアクセス](2019-07-28-17-50-45.png)
+
+---
+
+![Kubernetes Cluster](2019-07-28-17-51-17.png)
+
+---
+
 
 
 
