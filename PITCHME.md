@@ -1006,17 +1006,109 @@ public static async Task<IActionResult> Run(HttpRequest req, ILogger log)
 
 ---
 
+### AzureStackに「Teamsにメッセージを送信するWebサービス」を展開
 
+---
 
+![functionの検索](2019-07-28-21-52-43.png)
 
+---
 
+![function app](2019-07-28-21-53-31.png)
 
+---
 
+![作成](2019-07-28-21-54-08.png)
 
+---
 
+![Function App 作成](2019-07-28-21-55-16.png)
 
+---
 
+![リソースに移動](2019-07-28-21-56-46.png)
 
+---
 
+![新規作成](2019-07-28-21-57-55.png)
 
+---
 
+![新しい関数](2019-07-28-21-58-42.png)
+
+---
+
+![HTTP Trigger](2019-07-28-21-59-23.png)
+
+---
+
+![作成](2019-07-28-22-00-09.png)
+
+---
+
+```
+#r "Newtonsoft.Json"
+
+using System.Net;
+using System.Collections;
+using Newtonsoft.Json;
+
+public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceWriter log)
+{
+    string url = "https://outlook.office.com/webhook/9260568e-df73-4b63-9668-6349b3ce05ad@88cb30cf-9982-4b0b-950f-243b551e44ba/IncomingWebhook/6aed418937dc4120b583b23391010f2b/4ee8d085-8181-4c77-9626-44218cc2b583";
+
+    string message = req.GetQueryNameValuePairs()
+        .FirstOrDefault(q => string.Compare(q.Key, "message", true) == 0)
+        .Value;
+
+    using (HttpClient httpClient = new HttpClient())
+    {
+    var param = new Hashtable();
+    param["Text"] = message;
+    var json = JsonConvert.SerializeObject(param);
+
+    var content = new StringContent(json);
+    HttpResponseMessage response = await httpClient.PostAsync(url, content);
+    }
+
+    return message == null
+        ? req.CreateResponse(HttpStatusCode.BadRequest, "Please pass a name on the query string or in the request body")
+        : req.CreateResponse(HttpStatusCode.OK, "message sent. " + message);
+}
+
+```
+
+---
+
+![関数の作成と実行](2019-07-28-22-10-19.png)
+
+---
+
+![関数のURL](2019-07-28-22-11-23.png)
+
+---
+
+![コピー](2019-07-28-22-12-01.png)
+
+---
+
+![Message sent](2019-07-28-22-14-09.png)
+
+---
+
+![Message from Azure Stack](2019-07-28-22-15-03.png)
+
+---
+
+## アジェンダ
+
+1. サブスクリプション準備
+2. 仮想マシン展開 - ブラウザ
+3. 展開後のWindows Server 2016の確認
+4. 仮想マシン展開 - PowerShell
+5. テンプレート展開
+6. コンテナ基盤展開
+7. Webサイト作成
+8. Teamsにメッセージを送信するWebサービス作成
+
+---
