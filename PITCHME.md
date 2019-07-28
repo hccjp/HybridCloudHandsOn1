@@ -642,11 +642,43 @@ Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 
 ---
 
+![Search Container](2019-07-28-17-58-57.png)
 
+---
 
+![AKS](2019-07-28-17-59-45.png)
 
+---
 
+![作成](2019-07-28-18-00-23.png)
 
+---
+
+![Kubernetesクラスターを作成](2019-07-28-18-03-20.png)
+
+---
+
+![確認および作成](2019-07-28-18-07-29.png)
+
+---
+
+![作成](2019-07-28-18-08-22.png)
+
+---
+
+![Deoploy Complete](2019-07-28-18-17-53.png)
+
+---
+
+![Kubernetes Service](2019-07-28-18-18-21.png)
+
+---
+
+![Kubernetes Service - Overview](2019-07-28-18-19-06.png)
+
+---
+
+![delete - AKS](2019-07-28-18-20-37.png)
 
 ---
 
