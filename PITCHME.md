@@ -1047,6 +1047,7 @@ public static async Task<IActionResult> Run(HttpRequest req, ILogger log)
 ---
 
 ```
+
 #r "Newtonsoft.Json"
 
 using System.Net;
@@ -1077,6 +1078,11 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceW
 }
 
 ```
+
+---
+
+- コード
+  - http://bit.ly/32Y1mAS
 
 ---
 
