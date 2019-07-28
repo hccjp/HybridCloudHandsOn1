@@ -672,6 +672,7 @@ Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 ---
 
 - アプリケーション (クライアント) ID
+  - HybridCloudDemoSPN
   - 2347abf7-923c-49f9-9660-1e9b687f528b
 - アプリケーションシークレット
   - その場で生成します
