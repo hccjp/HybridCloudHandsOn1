@@ -867,5 +867,155 @@ Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 
 ---
 
+## Teamsにメッセージを送信するWebサービス作成
+
+---
+
+![Incoming Web Hook](2019-07-28-20-53-23.png)
+
+---
+
+- Incoming Web Hook
+  - https://outlook.office.com/webhook/9260568e-df73-4b63-9668-6349b3ce05ad@88cb30cf-9982-4b0b-950f-243b551e44ba/IncomingWebhook/6aed418937dc4120b583b23391010f2b/4ee8d085-8181-4c77-9626-44218cc2b583
+
+---
+
+### Azureに「Teamsにメッセージを送信するWebサービス」を展開
+
+---
+
+![リソースの作成](2019-07-28-21-17-08.png)
+
+---
+
+![Function App](2019-07-28-21-18-52.png)
+
+---
+
+![作成](2019-07-28-21-19-28.png)
+
+---
+
+![Function App作成パラメータ](2019-07-28-21-22-13.png)
+
+---
+
+![リソースに移動](2019-07-28-21-24-15.png)
+
+---
+
+![関数新規作成](2019-07-28-21-25-10.png)
+
+---
+
+![新しい関数](2019-07-28-21-25-53.png)
+
+---
+
+![HTTP trigger](2019-07-28-21-27-06.png)
+
+---
+
+![新しい関数](2019-07-28-21-28-20.png)
+
+---
+
+![初期状態](2019-07-28-21-29-00.png)
+
+---
+
+```
+#r "Newtonsoft.Json"
+
+using System.Net;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Primitives;
+using System.Collections;
+using Newtonsoft.Json;
+
+public static async Task<IActionResult> Run(HttpRequest req, ILogger log)
+{
+    string message = req.Query["message"];
+    string url = "https://outlook.office.com/webhook/9260568e-df73-4b63-9668-6349b3ce05ad@88cb30cf-9982-4b0b-950f-243b551e44ba/IncomingWebhook/6aed418937dc4120b583b23391010f2b/4ee8d085-8181-4c77-9626-44218cc2b583";
+
+    using (HttpClient httpClient = new HttpClient())
+    {
+    var param = new Hashtable();
+    param["Text"] = message;
+    var json = JsonConvert.SerializeObject(param);
+
+    var content = new StringContent(json);
+    HttpResponseMessage response = await httpClient.PostAsync(url, content);
+    }
+
+    return message != null
+        ? (ActionResult)new OkObjectResult($"message sent. {message}")
+        : new BadRequestObjectResult("Please pass a message on the query string or in the request body");
+}
+```
+
+---
+
+- コード
+- http://bit.ly/2yjLpai
+
+---
+
+![コード保存](2019-07-28-21-35-30.png)
+
+---
+
+![関数のURLの取得](2019-07-28-21-36-38.png)
+
+---
+
+![関数URLコピー](2019-07-28-21-37-32.png)
+
+---
+
+![実行](2019-07-28-21-42-06.png)
+
+---
+
+![文字列作成](2019-07-28-21-44-40.png)
+
+---
+
+![実行](2019-07-28-21-44-59.png)
+
+---
+
+![実行結果](2019-07-28-21-45-40.png)
+
+---
+
+- 確認したらリソースグループを削除します。
+
+---
+
+![リソースグループに移動](2019-07-28-21-46-50.png)
+
+---
+
+![削除](2019-07-28-21-47-27.png)
+
+---
+
+![削除](2019-07-28-21-48-12.png)
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
