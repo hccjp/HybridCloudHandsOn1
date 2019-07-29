@@ -1024,8 +1024,8 @@ Remove-AzureRMResourceGroup -Name HCCJP_WS2016byPS -Force
 4. 仮想マシン展開 - PowerShell
 5. テンプレート展開
 6. コンテナ基盤展開
-7. Webサイト作成(←今ここ)
-8. Teamsにメッセージを送信するWebサービス作成
+7. Webサイト作成
+8. Teamsにメッセージを送信するWebサービス作成(←今ここ)
 
 ---
 
