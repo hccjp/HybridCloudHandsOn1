@@ -1290,6 +1290,7 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceW
 ---
 
 - CloudShellおよびAzureStack上で下記コマンドを実行
+  - Get-AzureRmSubscription -SubscriptionName "サブスクリプション名" | Select-AzureRmSubscription
   - Get-AzureRmResourceGroup -Name *HCCJP*
   - #消していいものだけが表示されている事を確認してください！
   - #Forceスイッチをつけるかどうかはお好みで！
