@@ -66,7 +66,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-### AzureStackのサブスクリプションを確認します。(代表者1名
+### AzureStackのサブスクリプションを確認します。(代表者1名)
 
 - 管理ポータルにアクセスし「サブスクリプション」を表示、確認します。
 
@@ -110,7 +110,6 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 ---
 
 @snap[midpoint span-80]
-
 ![リソースの作成](2019-07-26-12-13-29.png)
 
 @snapend
