@@ -1281,5 +1281,22 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceW
 
 ---
 
+## 最後に掃除をしましょう！
+
+---
+
+### Azure上の本日作成したリソースの削除
+
+---
+
+- CloudShellおよびAzureStack上で下記コマンドを実行
+  - Get-AzureRmResourceGroup -Name *HCCJP*
+  - #消していいものだけが表示されている事を確認してください！
+  - #Forceスイッチをつけるかどうかはお好みで！
+  - Get-AzureRmResourceGroup -Name *HCCJP* | Remove-AzureRmResourceGroup -Force
+  
+
+---
+
 - 以上でハンズオンは終了です。
 - お疲れ様でした！
