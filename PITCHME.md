@@ -302,7 +302,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-### Azure に展開したWindows Server 2016の確認
+### Azure に展開したWindows Server 2016の確認(全員)
 
 ---
 
@@ -314,7 +314,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-### Azure VMの構成
+### Azure VMの構成(全員)
 
 ![IPアドレスマップ](2019-07-26-14-12-06.png)
 - ※ 引用元：https://blogs.technet.microsoft.com/mskk-cloudos/2016/04/06/azure-ip/
@@ -353,7 +353,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-### Azure Stackに展開したWindows Server 2016の確認
+### Azure Stackに展開したWindows Server 2016の確認(代表者1名)
 
 ---
 
@@ -413,7 +413,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
   
 ---
 
-### Azure 上のリソースの削除
+### Azure 上のリソースの削除(全員)
 
 ---
 
@@ -429,7 +429,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-### Azure Stack上のリソースの削除
+### Azure Stack上のリソースの削除(代表者1名)
 
 ---
 
@@ -462,7 +462,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-### Azure への仮想マシン展開 - PowerShell
+### Azure への仮想マシン展開 - PowerShell(全員)
 
 ---
 
@@ -505,7 +505,7 @@ Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 
 ---
 
-### Azure Stackへの仮想マシン展開 - PowerShell
+### Azure Stackへの仮想マシン展開 - PowerShell(代表者1名)
 
 ---
 
@@ -558,7 +558,7 @@ Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 
 ---
 
-### Azure にARMテンプレートを展開します
+### Azure にARMテンプレートを展開します(全員)
 
 ---
 
@@ -640,7 +640,7 @@ Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 
 ---
 
-### AzureStack にARMテンプレートを展開します
+### AzureStack にARMテンプレートを展開します(代表者1名)
 
 ---
 
@@ -714,7 +714,7 @@ Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 
 ---
 
-### Azure へのコンテナ基盤展開
+### Azure へのコンテナ基盤展開(全員)
 
 ---
 
@@ -758,7 +758,7 @@ Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 
 ---
 
-### Azure Stackへのコンテナ基盤展開
+### Azure Stackへのコンテナ基盤展開(代表者1名)
 
 ---
 
@@ -908,7 +908,7 @@ Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 
 ---
 
-### AzureStackでのWebサイト作成(代表１名)
+### AzureStackでのWebサイト作成(代表者1名)
 
 ---
 
@@ -982,7 +982,7 @@ Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 
 ---
 
-### Azureに「Teamsにメッセージを送信するWebサービス」を展開
+### Azureに「Teamsにメッセージを送信するWebサービス」を展開(全員)
 
 ---
 
@@ -1108,7 +1108,7 @@ public static async Task<IActionResult> Run(HttpRequest req, ILogger log)
 
 ---
 
-### AzureStackに「Teamsにメッセージを送信するWebサービス」を展開
+### AzureStackに「Teamsにメッセージを送信するWebサービス」を展開(代表者1名)
 
 ---
 
