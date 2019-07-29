@@ -684,7 +684,7 @@ Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 
 ![作成](2019-07-28-15-35-08.png)
 
-@endnap
+@snapend
 
 ---
 
