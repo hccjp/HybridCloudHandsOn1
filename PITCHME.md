@@ -314,7 +314,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-### Azure VMの構成(全員)
+### Azure VMの構成
 
 ![IPアドレスマップ](2019-07-26-14-12-06.png)
 - ※ 引用元：https://blogs.technet.microsoft.com/mskk-cloudos/2016/04/06/azure-ip/
@@ -381,19 +381,19 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-@snap[midpoint span-60]
+@snap[midpoint span-50]
 
 ![資格情報](2019-07-26-16-30-17.png)
 
-@endsnap
+@snapend
 
 ---
 
-@snap[midpoint span-60]
+@snap[midpoint span-50]
 
 ![リモートコンピューターのID](2019-07-26-16-31-08.png)
 
-@endsnap
+@snapend
 
 ---
 
