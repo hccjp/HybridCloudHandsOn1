@@ -425,7 +425,11 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
+@snap[midpoint span-50]
+
 ![リソースグループの削除](2019-07-26-18-04-35.png)
+
+@endsnap
 
 ---
 
@@ -441,7 +445,11 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
+@snap[midpoint span-50]
+
 ![リソースグループの削除](2019-07-26-18-07-22.png)
+
+@endsnap
 
 ---
 
@@ -574,11 +582,19 @@ Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 
 ---
 
+@snap[midpoint span-50]
+
 ![テンプレートを選択](2019-07-28-14-32-46.png)
+
+@endsnap
 
 ---
 
+@snap[midpoint span-50]
+
 ![パラメーター](2019-07-28-14-37-08.png)
+
+@endsnap
 
 ---
 
@@ -606,7 +622,11 @@ Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 
 ---
 
+@snap[midpoint span-50]
+
 ![RDPファイルダウンロード](2019-07-28-15-14-18.png)
+
+@endsnap
 
 ---
 
@@ -618,11 +638,19 @@ Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 
 ---
 
+@snap[midpoint span-50]
+
 ![認証情報](2019-07-28-15-17-21.png)
+
+@endsnap
 
 ---
 
+@snap[midpoint span-50]
+
 ![リモートコンピューターID](2019-07-28-15-17-56.png)
+
+@endsnap
 
 ---
 
@@ -652,11 +680,19 @@ Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 
 ---
 
+@snap[midpoint span-50]
+
 ![作成](2019-07-28-15-35-08.png)
+
+@endnap
 
 ---
 
+@snap[midpoint span-50]
+
 ![テンプレートの編集](2019-07-28-15-36-25.png)
+
+@endsnap
 
 ---
 
@@ -672,15 +708,27 @@ Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 
 ---
 
+@snap[midpoint span-50]
+
 ![パラメーターの編集](2019-07-28-15-40-40.png)
 
+@endsnap
+
 ---
+
+@snap[midpoint span-50]
 
 ![パラメーター](2019-07-28-15-42-34.png)
 
+@endsnap
+
 ---
 
+@snap[midpoint span-50]
+
 ![テンプレート展開](2019-07-28-15-45-03.png)
+
+@endsnap
 
 ---
 
