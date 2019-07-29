@@ -521,15 +521,6 @@ location?: JapanEast
 
 ---
 
-- 確認後リソースグループを削除します。
-
-```
-
-Remove-AzureRMResourceGroup -Name HCCJP_WS2016byPS -Force
-```
-
----
-
 ### Azure Stackへの仮想マシン展開 - PowerShell(代表者1名)
 
 ---
@@ -555,10 +546,9 @@ location?: tokyo
 
 ---
 
-- 確認後リソースグループを削除します。
+- Azure, Azure Stack上のリソースグループを削除します。
 
 ```
-
 Remove-AzureRMResourceGroup -Name HCCJP_WS2016byPS -Force
 ```
 
@@ -805,6 +795,10 @@ Remove-AzureRMResourceGroup -Name HCCJP_WS2016byPS -Force
 ---
 
 ![作成](2019-07-28-18-08-22.png)
+
+---
+
+- Azureサブスクリプションに十分な権限があってもAADにServicePrincipalを作成する権限が無いとここで失敗します。
 
 ---
 
