@@ -519,7 +519,8 @@ location?: JapanEast
 - 確認後リソースグループを削除します。
 
 ```
-Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
+
+Remove-AzureRMResourceGroup -Name HCCJP_WS2016byPS -Force
 ```
 
 ---
@@ -552,7 +553,8 @@ location?: tokyo
 - 確認後リソースグループを削除します。
 
 ```
-Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
+
+Remove-AzureRMResourceGroup -Name HCCJP_WS2016byPS -Force
 ```
 
 ---
