@@ -26,6 +26,19 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
+## アジェンダ - 1
+
+1. サブスクリプション準備(←今ここ)
+2. 仮想マシン展開 - ブラウザ
+3. 展開後のWindows Server 2016の確認
+4. 仮想マシン展開 - PowerShell
+5. テンプレート展開
+6. コンテナ基盤展開
+7. Webサイト作成
+8. Teamsにメッセージを送信するWebサービス作成
+
+---
+
 ## 1. サブスクリプション準備
 
 - ハンズオンで利用するAzure用サブスクリプションを確認します。(各自)
@@ -33,7 +46,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-## Azureサブスクリプション準備(各自)
+### Azureサブスクリプション準備(各自)
 
 - Azureサブスクリプションは事前に準備をお願いしていました。
 - Azure管理ポータルにアクセスし「サブスクリプション」を表示、確認してください。
@@ -53,7 +66,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-## AzureStackのサブスクリプションを確認します。(代表者1名
+### AzureStackのサブスクリプションを確認します。(代表者1名
 
 - 管理ポータルにアクセスし「サブスクリプション」を表示、確認します。
 
@@ -72,6 +85,19 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
+## アジェンダ - 2
+
+1. サブスクリプション準備
+2. 仮想マシン展開 - ブラウザ(←今ここ)
+3. 展開後のWindows Server 2016の確認
+4. 仮想マシン展開 - PowerShell
+5. テンプレート展開
+6. コンテナ基盤展開
+7. Webサイト作成
+8. Teamsにメッセージを送信するWebサービス作成
+
+---
+
 ## 2. 仮想マシン展開 - ブラウザ
 
 - AzureにWindows Server 2016を展開します。(各自)
@@ -79,7 +105,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-## AzureにWindows Server 2016を展開します。(各自)
+### AzureにWindows Server 2016を展開します。(各自)
 
 ---
 
@@ -167,7 +193,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-## Azure StackにWindows Server 2016を展開します。(代表者1名)
+### Azure StackにWindows Server 2016を展開します。(代表者1名)
 
 ---
 
@@ -255,11 +281,24 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-## 展開後のWindows Server 2016の確認
+## アジェンダ - 3
+
+1. サブスクリプション準備
+2. 仮想マシン展開 - ブラウザ
+3. 展開後のWindows Server 2016の確認(←今ここ)
+4. 仮想マシン展開 - PowerShell
+5. テンプレート展開
+6. コンテナ基盤展開
+7. Webサイト作成
+8. Teamsにメッセージを送信するWebサービス作成
 
 ---
 
-## Azure に展開したWindows Server 2016の確認
+## 3. 展開後のWindows Server 2016の確認
+
+---
+
+### Azure に展開したWindows Server 2016の確認
 
 ---
 
@@ -310,7 +349,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-## Azure Stackに展開したWindows Server 2016の確認
+### Azure Stackに展開したWindows Server 2016の確認
 
 ---
 
@@ -366,13 +405,11 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-## リソース削除
-
 - 今作成した環境を削除します。
   
 ---
 
-## Azure 上のリソースの削除
+### Azure 上のリソースの削除
 
 ---
 
@@ -388,7 +425,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
-## Azure Stack上のリソースの削除
+### Azure Stack上のリソースの削除
 
 ---
 
@@ -404,11 +441,24 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
+## アジェンダ - 4
+
+1. サブスクリプション準備
+2. 仮想マシン展開 - ブラウザ
+3. 展開後のWindows Server 2016の確認
+4. 仮想マシン展開 - PowerShell(←今ここ)
+5. テンプレート展開
+6. コンテナ基盤展開
+7. Webサイト作成
+8. Teamsにメッセージを送信するWebサービス作成
+
+---
+
 ## 4. 仮想マシン展開 - PowerShell
 
 ---
 
-## Azure への仮想マシン展開 - PowerShell
+### Azure への仮想マシン展開 - PowerShell
 
 ---
 
@@ -451,7 +501,7 @@ Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 
 ---
 
-## Azure Stackへの仮想マシン展開 - PowerShell
+### Azure Stackへの仮想マシン展開 - PowerShell
 
 ---
 
@@ -481,6 +531,19 @@ location?: tokyo
 ```
 Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 ```
+
+---
+
+## アジェンダ - 5
+
+1. サブスクリプション準備
+2. 仮想マシン展開 - ブラウザ
+3. 展開後のWindows Server 2016の確認
+4. 仮想マシン展開 - PowerShell
+5. テンプレート展開(←今ここ)
+6. コンテナ基盤展開
+7. Webサイト作成
+8. Teamsにメッセージを送信するWebサービス作成
 
 ---
 
@@ -630,11 +693,20 @@ Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 
 ---
 
+## アジェンダ - 6
 
+1. サブスクリプション準備
+2. 仮想マシン展開 - ブラウザ
+3. 展開後のWindows Server 2016の確認
+4. 仮想マシン展開 - PowerShell
+5. テンプレート展開
+6. コンテナ基盤展開(←今ここ)
+7. Webサイト作成
+8. Teamsにメッセージを送信するWebサービス作成
 
+---
 
-
-## コンテナ基盤展開
+## 6. コンテナ基盤展開
 
 ---
 
@@ -740,6 +812,19 @@ Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 ---
 
 ![Kubernetes Cluster](2019-07-28-17-51-17.png)
+
+---
+
+## アジェンダ - 7
+
+1. サブスクリプション準備
+2. 仮想マシン展開 - ブラウザ
+3. 展開後のWindows Server 2016の確認
+4. 仮想マシン展開 - PowerShell
+5. テンプレート展開
+6. コンテナ基盤展開
+7. Webサイト作成(←今ここ)
+8. Teamsにメッセージを送信するWebサービス作成
 
 ---
 
@@ -867,7 +952,20 @@ Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 
 ---
 
-## Teamsにメッセージを送信するWebサービス作成
+## アジェンダ - 8
+
+1. サブスクリプション準備
+2. 仮想マシン展開 - ブラウザ
+3. 展開後のWindows Server 2016の確認
+4. 仮想マシン展開 - PowerShell
+5. テンプレート展開
+6. コンテナ基盤展開
+7. Webサイト作成(←今ここ)
+8. Teamsにメッセージを送信するWebサービス作成
+
+---
+
+## 8. Teamsにメッセージを送信するWebサービス作成
 
 ---
 
@@ -1106,7 +1204,7 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceW
 
 ---
 
-## アジェンダ
+## アジェンダ - 振り返り
 
 1. サブスクリプション準備
 2. 仮想マシン展開 - ブラウザ
@@ -1118,3 +1216,6 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceW
 8. Teamsにメッセージを送信するWebサービス作成
 
 ---
+
+- 以上でハンズオンは終了です。
+- お疲れ様でした！
