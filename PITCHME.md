@@ -54,6 +54,7 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 ---
 
 - <https://portal.azure.com/> にアクセスします
+- 利用推奨ブラウザはChromeです。
 - サブスクリプション一覧を表示します
 
 ![サブスクリプションの表示](2019-07-24-21-26-15.png)
@@ -61,6 +62,8 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 ---
 
 - 有効なサブスクリプションが存在する事を確認します。
+- サブスクリプションにリソースを作成できる権限が必要です。
+- 一部AADの管理者権限が必要です。ない場合は他の人の操作を参照しましょう。
 
 ![サブスクリプション一覧](2019-07-24-21-27-19.png)
 
@@ -484,11 +487,19 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
+![CloudShell](2019-07-29-13-58-15.png)
+
+---
+
 ```
 cd $home\clouddrive
 git clone https://github.com/hccjp/HybridCloudHandsOn1.git
 cd ./HybridCloudHandsOn1/
 ./NewVM.ps1
+
+#コピーするならここより上です。
+#下記はコピーしないでください。
+
 location?: JapanEast
 ```
 ---
