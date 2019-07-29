@@ -110,6 +110,9 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 ---
 
 @snap[midpoint span-80]
+
+- https://portal.azure.com
+
 ![リソースの作成](2019-07-26-12-13-29.png)
 
 @snapend
