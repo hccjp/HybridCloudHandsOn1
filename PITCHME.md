@@ -352,6 +352,11 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 ---
 
+- グローバルIPアドレスの確認
+  - https://www.cman.jp/network/support/go_access.cgi
+
+---
+
 かんたんに展開でき、きちんと動作していましたね！
 
 ---
