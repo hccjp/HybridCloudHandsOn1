@@ -716,7 +716,7 @@ Remove-AzResourceGroup -Name HCCJP_WS2016byPS -Force
 
 ---
 
-@snap[midpoint span-50]
+@snap[midpoint span-70]
 
 ![パラメーター](2019-07-28-15-42-34.png)
 
