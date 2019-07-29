@@ -201,6 +201,8 @@ AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 @snap[midpoint span-80]
 
+- URLは環境により異なります
+
 ![新規](2019-07-26-13-19-48.png)
 
 @snapend
