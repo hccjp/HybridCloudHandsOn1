@@ -3,9 +3,9 @@
 AzureとAzureStackを用いたIaaS,PaaS,FaaS体験
 
 - スライドURL <https://gitpitch.com/hccjp/hybridcloudhandson1>
+- 短縮URL <http://bit.ly/2LQxukZ>
 
 ---
-
 
 ## ハンズオン目的
 
